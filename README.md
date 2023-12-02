@@ -13,7 +13,7 @@ Welcome to the Epidemiological Impact Analysis repository, a comprehensive repro
 
 ### `main.py`
 
-This script serves as the project's entry point, orchestrating the entire experiment. The `Experiment` class is instantiated, synthetic data is generated, propensity score matching is performed, and statistical analysis is conducted. Execute this script to run the entire experiment seamlessly.
+This script serves as the project's entry point, orchestrating the entire experiment. The `Experiment` class is instantiated, synthetic data is generated, propensity score matching is performed, and statistical analysis is conducted. Execute this script to run the entire experiment seamlessly. You can control the experimant setting by changing the default parametes sent to experiment() function.
 
 ### `Experiment.py`
 
@@ -54,7 +54,7 @@ The `Analysis` class undertakes comprehensive statistical analysis, featuring me
 3. Run the experiment:
 
    ```bash
-   python src\main.py
+   python src/main.py
    ```
 
 ## Dependencies
