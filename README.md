@@ -47,14 +47,14 @@ The `Analysis` class undertakes comprehensive statistical analysis, featuring me
    
    From project root folder, run:
    ```bash
-   conda env create -f enviroment.yml -n vma_env
+   conda env create -f src/environment.yml -n vma_env
    conda activate vma_env
    ```
 
 3. Run the experiment:
 
    ```bash
-   python main.py
+   python src\main.py
    ```
 
 ## Dependencies
