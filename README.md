@@ -59,17 +59,20 @@ pip install -r requirements.txt
    cd VaccineMatchAnalysis
    ```
 
-2. Install dependencies:
-
+2. Install dependencies for Anaconda/Miniconda:
+   Project enviorment dependencies listed in `src\enviroment.yml`.
+   From project root folder, run:
    ```bash
-   pip install -r requirements.txt
+   conda env create -f enviroment.yml -n vma_env
+   conda activate vma_env
    ```
 
-3. Run the experiment:
+4. Run the experiment:
 
    ```bash
    python main.py
    ```
+
 
 ## Visualization Highlights
 
