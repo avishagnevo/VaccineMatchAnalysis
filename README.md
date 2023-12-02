@@ -26,7 +26,7 @@ Representing an individual in the experiment, the `Patient` class encapsulates k
 
 ### `Matching.py`
 
-The `Matching` class has undergone enhancements, now employing a narrower caliper for refined matching. Visualizations have been elevated to include a scatter plot of propensity scores for matched groups, along with box plots illustrating propensity score intervals. The sequential and dynamic nature of updating treatment and control sets has been optimized for increased efficiency.
+The Matching.py module is the cornerstone of this project, responsible for executing a refined propencity score 1:1 matching process that enhances the precision of the epidemiological impact analysis.
 
 ### `Analysis.py`
 
