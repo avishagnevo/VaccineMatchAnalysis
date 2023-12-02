@@ -7,7 +7,7 @@
 
 
 ## Project Overview
-Welcome to the Epidemiological Impact Analysis repository, a comprehensive reproduction of the published paper "BNT162b2 mRNA Covid-19 Vaccine in a Nationwide Mass Vaccination Setting" by Noa Dagan, MD, et al. led by Professor Yair Goldberg. This statistical project investigates the multifaceted impact of vaccination on infection rates across diverse demographic factors. Leveraging synthetic data generation, sophisticated matching on propensity score algorithms to avoid selection bias, and advanced statistical analysis, this project aims to shed light on the effectiveness of vaccinations in preventing infections over time.
+Welcome to the Epidemiological Impact Analysis repository, a comprehensive reproduction of the published paper [**"BNT162b2 mRNA Covid-19 Vaccine in a Nationwide Mass Vaccination Setting"**](https://www.nejm.org/doi/full/10.1056/nejmoa2101765#article_supplementary_material) by Noa Dagan, MD, et al. led by Professor Yair Goldberg. This statistical project investigates the multifaceted impact of vaccination on infection rates across diverse demographic factors. Leveraging synthetic data generation, sophisticated matching on propensity score algorithms to avoid selection bias, and advanced statistical analysis, this project aims to shed light on the effectiveness of vaccinations in preventing infections over time.
 
 ## Project Components
 
@@ -32,24 +32,6 @@ The `Matching` class has undergone enhancements, now employing a narrower calipe
 
 The `Analysis` class undertakes comprehensive statistical analysis, featuring methods for creating detailed tables, conducting Kaplan-Meier survival analysis, Cox proportional hazard modeling, and visualization of standardized differences in means before and after matching. For each person, follow-up ended at the earliest of the following events: occurrence of an outcome event, vaccination (for unvaccinated controls), vaccination of the matched control (for vaccinated persons), or the end of the study period.
 
-## Running the Experiment
-
-To execute the experiment, run the `main.py` script. Ensure that the necessary dependencies are installed by running:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Dependencies
-
-- `matplotlib`
-- `numpy`
-- `scikit-learn`
-- `lifelines`
-- `pandas`
-- `tabulate`
-- `scipy`
-
 ## Usage Guide
 
 1. Clone the repository:
@@ -60,18 +42,30 @@ pip install -r requirements.txt
    ```
 
 2. Install dependencies for Anaconda/Miniconda:
+   
    Project enviorment dependencies listed in `src\enviroment.yml`.
+   
    From project root folder, run:
    ```bash
    conda env create -f enviroment.yml -n vma_env
    conda activate vma_env
    ```
 
-4. Run the experiment:
+3. Run the experiment:
 
    ```bash
    python main.py
    ```
+
+## Dependencies
+
+- `matplotlib`
+- `numpy`
+- `scikit-learn`
+- `lifelines`
+- `pandas`
+- `tabulate`
+- `scipy`
 
 
 ## Visualization Highlights
