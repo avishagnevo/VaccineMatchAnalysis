@@ -1,5 +1,10 @@
 # VaccineMatchAnalysis
 # Vaccine Effectivness Analysis on Propencity Scores Balanced Cohort 
+> Date: November, 2023. 
+## Authors
+
+* Avishag Nevo: avishag.nevo@campus.technion.ac.il
+
 
 ## Project Overview
 Welcome to the Epidemiological Impact Analysis repository, a comprehensive reproduction of the published paper "BNT162b2 mRNA Covid-19 Vaccine in a Nationwide Mass Vaccination Setting" by Noa Dagan, MD, et al. led by Professor Yair Goldberg. This statistical project investigates the multifaceted impact of vaccination on infection rates across diverse demographic factors. Leveraging synthetic data generation, sophisticated matching on propensity score algorithms to avoid selection bias, and advanced statistical analysis, this project aims to shed light on the effectiveness of vaccinations in preventing infections over time.
