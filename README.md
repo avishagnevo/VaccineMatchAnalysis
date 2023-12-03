@@ -7,7 +7,7 @@
 
 
 ## Project Overview
-Welcome to the Epidemiological Impact Analysis repository, a comprehensive reproduction of the published paper [**"BNT162b2 mRNA Covid-19 Vaccine in a Nationwide Mass Vaccination Setting"**](https://www.nejm.org/doi/full/10.1056/nejmoa2101765#article_supplementary_material) by Noa Dagan, MD, et al. led by Professor Yair Goldberg. This statistical project investigates the multifaceted impact of vaccination on infection rates across diverse demographic factors. Leveraging synthetic data generation, sophisticated matching on propensity score algorithms to avoid selection bias, and advanced statistical analysis, this project aims to shed light on the effectiveness of vaccinations in preventing infections over time.
+Welcome to the Epidemiological Impact Analysis repository, a comprehensive reproduction of the published paper [**"BNT162b2 mRNA Covid-19 Vaccine in a Nationwide Mass Vaccination Setting"**](https://www.nejm.org/doi/full/10.1056/nejmoa2101765) by Noa Dagan, MD, et al. led by Professor Yair Goldberg. This statistical project investigates the multifaceted impact of vaccination on infection rates across diverse demographic factors. Leveraging synthetic data generation, sophisticated matching on propensity score algorithms to avoid selection bias, and advanced statistical analysis, this project aims to shed light on the effectiveness of vaccinations in preventing infections over time.
 
 ## Project Components
 
