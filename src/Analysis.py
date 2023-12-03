@@ -42,13 +42,6 @@ class Analysis:
         kmf_unvaccinated.fit(self.event_time_control,
                              event_observed=self.censored_control)
 
-        '''
-        kmf_21_v = kmf_vaccinated.cumulative_density_at_times(21)
-        kmf_42_v = kmf_vaccinated.cumulative_density_at_times(42)
-        kmf_21_u = kmf_unvaccinated.cumulative_density_at_times(21)
-        kmf_42_u = kmf_unvaccinated.cumulative_density_at_times(42)
-        print(kmf_21_v, kmf_42_v, kmf_21_u, kmf_42_u)
-        '''
 
         # Plot survival curves
         plt.figure(figsize=(12, 6))
