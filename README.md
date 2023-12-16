@@ -1,5 +1,5 @@
 # VaccineMatchAnalysis
-# Vaccine Effectivness Analysis on Propencity Scores Balanced Cohort 
+# Vaccine Effectiveness Analysis on a Balanced Synthetic Cohort
 > Date: November, 2023. 
 ## Authors
 
