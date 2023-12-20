@@ -30,7 +30,7 @@ The Matching.py module is the cornerstone of this project, responsible for execu
 
 ### `Analysis.py`
 
-The `Analysis` class undertakes comprehensive statistical analysis, featuring methods for creating detailed tables, conducting Kaplan-Meier survival analysis, Cox proportional hazard modeling, and visualization of standardized differences in means before and after matching. For each person, follow-up ended at the earliest of the following events: occurrence of an outcome event, vaccination (for unvaccinated controls), vaccination of the matched control (for vaccinated persons), or the end of the study period.
+The `Analysis` class undertakes comprehensive statistical analysis, featuring methods for creating detailed tables, conducting Kaplan-Meier survival analysis to get risk ratios throught the study periods, and visualization of differences in means before and after matching. For each person, follow-up ended at the earliest of the following events: occurrence of an outcome event, vaccination (for unvaccinated controls), vaccination of the matched control (for vaccinated persons), or the end of the study period.
 
 ## Usage Guide
 
@@ -78,7 +78,7 @@ Immerse yourself in the visual narrative of the project:
 - **Box Plot**: Delve into matched patients propencity scores proximity distribution.
 - **Lollipop Plot**: Check the balancing for each attribute before and after appling matching method.
 - **Survival Curves**: Observe Kaplan-Meier survival curves for vaccinated and control groups.
-- **Hazard Ratio Dynamics**: Investigate how vaccine effectiveness evolves over time.
+- **Risk Ratio Dynamics**: Investigate how vaccine effectiveness evolves over time.
 
 ## Matching Methodology
 
@@ -91,7 +91,3 @@ The heart of this project lies in the sophisticated matching method employed in 
 - **Sequential and Dynamic Updates**: Matching was performed using a “rolling cohort” design, the sequential and dynamic updating of treatment and control sets has been optimized for increased efficiency.
 
 - **Visualization**: Visualizations now include scatter plots of propensity scores for matched groups, box plots to understand distanced between matched patients proximity distribution and lollypop chart for the balance achived offering a clearer understanding of the matching process.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
