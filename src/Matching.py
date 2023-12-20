@@ -19,8 +19,8 @@ class Matching:
             else:
                 self.control.add(patient)
 
-    # sequential continues updating of treatment control sets
     def update_treatment_control(self, day):
+    # sequential continues updating of treatment control sets
         control = self.control.copy()
         for patient in control:
             if patient.vaccination_days[day]:  # in vaccination period

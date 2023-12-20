@@ -61,7 +61,7 @@ class Patient:
 
     def generate_immunization_progress(self ):
         stages = [(0, 14), (14, 21), (21, 28), (28, self.followup_duration)]
-        protection_levels = [0.5, 0.99, 0.99, 1]
+        protection_levels = [0.05, 0.46, 0.60, 0.92]
         immunization_progress = []
         for stage, protection_level in zip(stages, protection_levels):
             immunization_progress.extend(

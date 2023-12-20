@@ -84,7 +84,6 @@ class Experiment:
         for patient, ps in zip(self.patients, self.propensity_scores):
             patient.ps = ps
 
-
     def visualize_data(self):
         # Visualizations
         plt.figure(figsize=(12, 12))
