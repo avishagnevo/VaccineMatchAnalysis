@@ -1,6 +1,6 @@
 # VaccineMatchAnalysis
 # Vaccine Effectiveness Analysis on a Balanced Synthetic Cohort
-> Date: November, 2023. 
+> Date: December, 2023. 
 ## Authors
 
 * Avishag Nevo: avishag.nevo@campus.technion.ac.il
